@@ -172,7 +172,7 @@ each(names, function(item, indice){
 
 // Code here
 function getUserById(users, id, cb){
-  for(let i = 0; i < users.length - 1; i++) {
+  for(let i = 0; i < users.length; i++) {
     if(user[i].id == id) {
       cb(user[i]);
     }
